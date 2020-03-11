@@ -1,0 +1,39 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout"
+    android:padding="20dp">
+    <TextView
+        android:text="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultTextView"
+        android:textSize="144sp"
+        android:gravity="center"
+        android:layout_margin="30dp" />
+    <TextView
+        android:text="Choose your range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_margin="20dp"
+        android:max="10"
+        android:progress="2" />
+    <Button
+        android:text="Roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rollButton"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="20dp" />
+</LinearLayout>
